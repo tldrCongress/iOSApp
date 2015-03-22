@@ -27,6 +27,7 @@
                             <constraint firstAttribute="width" secondItem="agT-Xe-u6o" secondAttribute="width" id="NyA-MF-EAM"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="webView" destination="agT-Xe-u6o" id="cK1-QO-fnj"/>
                     </connections>

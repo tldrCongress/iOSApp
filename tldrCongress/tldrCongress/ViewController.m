@@ -20,13 +20,16 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self loadWebPage];
+}
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 
 - (void)loadWebPage {
     
-    NSString *urlAddress = @"https://www.tldrCongress.org";
+    NSString *urlAddress = @"https://blistering-inferno-7388.firebaseapp.com/#/dashboard";
     NSURL *url = [NSURL URLWithString:urlAddress];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:requestObj];
