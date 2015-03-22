@@ -29,7 +29,7 @@
 
 - (void)loadWebPage {
     
-    NSString *urlAddress = @"https://blistering-inferno-7388.firebaseapp.com/#/dashboard";
+    NSString *urlAddress = @"http://tldrCongress.org";
     NSURL *url = [NSURL URLWithString:urlAddress];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:requestObj];
