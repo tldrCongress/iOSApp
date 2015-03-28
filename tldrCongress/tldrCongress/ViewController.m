@@ -28,7 +28,6 @@
 
 
 - (void)loadWebPage {
-    
     NSString *urlAddress = @"http://tldrCongress.org";
     NSURL *url = [NSURL URLWithString:urlAddress];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];

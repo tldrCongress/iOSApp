@@ -414,6 +414,7 @@
 				C03CC2701ABF55E200D5E6A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C03CC2711ABF55E200D5E6A1 /* Build configuration list for PBXNativeTarget "tldrCongressTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				C03CC2731ABF55E200D5E6A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
