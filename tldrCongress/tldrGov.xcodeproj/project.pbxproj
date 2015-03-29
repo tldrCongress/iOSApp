@@ -13,21 +13,10 @@
 		C03CC25A1ABF55E200D5E6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03CC2581ABF55E200D5E6A1 /* Main.storyboard */; };
 		C03CC25C1ABF55E200D5E6A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03CC25B1ABF55E200D5E6A1 /* Images.xcassets */; };
 		C03CC25F1ABF55E200D5E6A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03CC25D1ABF55E200D5E6A1 /* LaunchScreen.xib */; };
-		C03CC26B1ABF55E200D5E6A1 /* tldrCongressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C03CC26A1ABF55E200D5E6A1 /* tldrCongressTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C03CC2651ABF55E200D5E6A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C03CC2431ABF55E200D5E6A1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C03CC24A1ABF55E200D5E6A1;
-			remoteInfo = tldrCongress;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		C03CC24B1ABF55E200D5E6A1 /* tldrCongress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tldrCongress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03CC24B1ABF55E200D5E6A1 /* tldrGov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tldrGov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03CC24F1ABF55E200D5E6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03CC2501ABF55E200D5E6A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C03CC2521ABF55E200D5E6A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,20 +26,12 @@
 		C03CC2591ABF55E200D5E6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C03CC25B1ABF55E200D5E6A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C03CC25E1ABF55E200D5E6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C03CC2641ABF55E200D5E6A1 /* tldrCongressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tldrCongressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03CC2691ABF55E200D5E6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03CC26A1ABF55E200D5E6A1 /* tldrCongressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tldrCongressTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C03CC2481ABF55E200D5E6A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C03CC2611ABF55E200D5E6A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,8 +53,7 @@
 		C03CC24C1ABF55E200D5E6A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C03CC24B1ABF55E200D5E6A1 /* tldrCongress.app */,
-				C03CC2641ABF55E200D5E6A1 /* tldrCongressTests.xctest */,
+				C03CC24B1ABF55E200D5E6A1 /* tldrGov.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C03CC24A1ABF55E200D5E6A1 /* tldrCongress */ = {
+		C03CC24A1ABF55E200D5E6A1 /* tldrGov */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C03CC26E1ABF55E200D5E6A1 /* Build configuration list for PBXNativeTarget "tldrCongress" */;
+			buildConfigurationList = C03CC26E1ABF55E200D5E6A1 /* Build configuration list for PBXNativeTarget "tldrGov" */;
 			buildPhases = (
 				C03CC2471ABF55E200D5E6A1 /* Sources */,
 				C03CC2481ABF55E200D5E6A1 /* Frameworks */,
@@ -134,28 +114,10 @@
 			);
 			dependencies = (
 			);
-			name = tldrCongress;
+			name = tldrGov;
 			productName = tldrCongress;
-			productReference = C03CC24B1ABF55E200D5E6A1 /* tldrCongress.app */;
+			productReference = C03CC24B1ABF55E200D5E6A1 /* tldrGov.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C03CC2631ABF55E200D5E6A1 /* tldrCongressTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C03CC2711ABF55E200D5E6A1 /* Build configuration list for PBXNativeTarget "tldrCongressTests" */;
-			buildPhases = (
-				C03CC2601ABF55E200D5E6A1 /* Sources */,
-				C03CC2611ABF55E200D5E6A1 /* Frameworks */,
-				C03CC2621ABF55E200D5E6A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C03CC2661ABF55E200D5E6A1 /* PBXTargetDependency */,
-			);
-			name = tldrCongressTests;
-			productName = tldrCongressTests;
-			productReference = C03CC2641ABF55E200D5E6A1 /* tldrCongressTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,14 +130,11 @@
 				TargetAttributes = {
 					C03CC24A1ABF55E200D5E6A1 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					C03CC2631ABF55E200D5E6A1 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = C03CC24A1ABF55E200D5E6A1;
+						DevelopmentTeam = 5JE9AKMQUF;
 					};
 				};
 			};
-			buildConfigurationList = C03CC2461ABF55E200D5E6A1 /* Build configuration list for PBXProject "tldrCongress" */;
+			buildConfigurationList = C03CC2461ABF55E200D5E6A1 /* Build configuration list for PBXProject "tldrGov" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C03CC24A1ABF55E200D5E6A1 /* tldrCongress */,
-				C03CC2631ABF55E200D5E6A1 /* tldrCongressTests */,
+				C03CC24A1ABF55E200D5E6A1 /* tldrGov */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +160,6 @@
 				C03CC25A1ABF55E200D5E6A1 /* Main.storyboard in Resources */,
 				C03CC25F1ABF55E200D5E6A1 /* LaunchScreen.xib in Resources */,
 				C03CC25C1ABF55E200D5E6A1 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C03CC2621ABF55E200D5E6A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C03CC2601ABF55E200D5E6A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C03CC26B1ABF55E200D5E6A1 /* tldrCongressTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C03CC2661ABF55E200D5E6A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C03CC24A1ABF55E200D5E6A1 /* tldrCongress */;
-			targetProxy = C03CC2651ABF55E200D5E6A1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C03CC2581ABF55E200D5E6A1 /* Main.storyboard */ = {
@@ -347,7 +282,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tldrCongress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tldrGov;
 			};
 			name = Debug;
 		};
@@ -357,48 +292,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tldrCongress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		C03CC2721ABF55E200D5E6A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = tldrCongressTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tldrCongress.app/tldrCongress";
-			};
-			name = Debug;
-		};
-		C03CC2731ABF55E200D5E6A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = tldrCongressTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tldrCongress.app/tldrCongress";
+				PRODUCT_NAME = tldrGov;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C03CC2461ABF55E200D5E6A1 /* Build configuration list for PBXProject "tldrCongress" */ = {
+		C03CC2461ABF55E200D5E6A1 /* Build configuration list for PBXProject "tldrGov" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C03CC26C1ABF55E200D5E6A1 /* Debug */,
@@ -407,20 +308,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C03CC26E1ABF55E200D5E6A1 /* Build configuration list for PBXNativeTarget "tldrCongress" */ = {
+		C03CC26E1ABF55E200D5E6A1 /* Build configuration list for PBXNativeTarget "tldrGov" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C03CC26F1ABF55E200D5E6A1 /* Debug */,
 				C03CC2701ABF55E200D5E6A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C03CC2711ABF55E200D5E6A1 /* Build configuration list for PBXNativeTarget "tldrCongressTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C03CC2721ABF55E200D5E6A1 /* Debug */,
-				C03CC2731ABF55E200D5E6A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
